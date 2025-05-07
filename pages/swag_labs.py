@@ -17,6 +17,7 @@ class SwagLabs(BasePage):
             return False
         return True
 
+
     def exist_password_field(self):
         try:
             self.find_element(locator='input#password')
